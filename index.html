@@ -1,74 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Richard Brunt-cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial;
+            color: rgb(254, 252, 252);
+        }
+
+        h1 {
+            font-family: verdana;
+            text-decoration-line: underline;
+            color: rgb(0, 0, 0);
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Richard Brunt</h1>
-        <h2>
-            Estudiante de la Tecnicatura en Informatica Profesional y Personal
-        </h2>
+        <div class="container-fluid">
+            <div class="row" id="containerName">
+                <div class="col">
+                    <h1 id="name">Richard Brunt</h1>
+                    <h2 id="underline">
+                        Estudiante de la Tecnicatura en Informática Profesional y Personal
+                    </h2>
+                </div>
+            </div>
+        </div>
     </header>
-    <section>
-        <h2>Datos Personales</h2>
-        <h3>Direccion</h3>
-        <p>Avenida Holdich,435.Esquel,Chubut</p>
-        <h3>Telefono</h3>
-        <p>02945-528544</p>
-        <h3>Email</h3>
-        <p>Brunt300@gmai.com</p>
-        <h3>Fecha de nacimiento</h3>
-        <p>06/02/2005 - Esquel</p>
-        <h3>Redes Sociales</h3>
-        <p>Instagram: @richardd.brunt</p>
-    </section>
-    <section>
-        <h2>Lenguajes de Programacion</h2>
-        <ul>
-            <li>HTML-5 -80%</li>
-            <li>CSS-3 -50%</li>
-            <li>JavaScript -25%</li>
-            <li>Python -10%</li>
-            <li>MySQL -50%</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Perfil Profesional</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur
-            architecto laborum inventore in, dolorum ipsam maiores quisquam expedita
-            doloremque facilis ratione placeat unde, vitae obcaecati tempore quae.
-            Ut, molestias!
-        </p>
-    </section>
-    <section>
-        <h2>Formacion</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque
-            ullam eius iure repellendus nostrum facilis magnam quibusdam, eos
-            dolorem quasi id architecto dolorum quidem amet tempora veniam dolore
-            sapiente!
-        </p>
-    </section>
-    <section>
-        <h2>Cursos y Certificados</h2>
-        <p>Introduction to Cybersecurity, Cisco NetAcad Abr, 2021 - Jul, 2021</p>
-        <p>Cybersecurity Essentials, , Cisco NetAcad Mar, 2021 - Jun, 2021</p>
-    </section>
-    <footer>
-        <p>Escuela Juan Abdala Chayep N.713</p>
-        <a href="url">
-            <img src="logo.png" alt="" />
-        </a>
-        <p>Practica Profesionalizante</p>
-        <p>Email de contacto: Brunt300@gmail.com</p>
-    </footer>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="personalInformation">
+                <section>
+                    <h1>Contacto</h1>
+                    <h3>Correo Electrónico:</h3>
+                    <p>Brunt300@gmai.com</p>
+                    <h3>Instagram:</h3>
+                    <p>@richardd.brunt</p>
+                </section>
+                <section id="academicInformation">
+                    <h1>Formación académica</h1>
+                    <h2>2016-Actualidad. Estudios de segundo grado</h2>
+                    <p>Escuela 713 Juan Abdala Chayep</p>
+                    <h2>2010-2016. Estudios Básicos</h2>
+                    <p>Escuela 159 Maestro Isaías Vera</p>
+                </section>
+                <section>
+                    <h1>Proyectos</h1>
+                    <ul>
+                        <li>Creación y desarrollo de una página web de ventas de indumentaria</li>
+                    </ul>
+                    <p>Diseñé una interfaz intuitiva y atractiva para los usuarios. En proceso de integración de un
+                        sistema de carrito de compras y gestión de la base de datos para los productos.</p>
+                    <ul>
+                        <li>Creación y desarrollo de una aplicación</li>
+                    </ul>
+                    <p>Sistema de gestión y administración para flujo de datos personales y venta de entradas para todo
+                        tipo de eventos.
+                        En proceso de desarrollo.</p>
+                    <ul>
+                        <li>Emprendimiento</li>
+                    </ul>
+                    
+
+                </section>
+                <section>
+                    <h1>Lenguajes de Programación</h1>
+                    <ul>
+                        <li>HTML-5 -80%</li>
+                        <li>CSS-3 -50%</li>
+                        <li>JavaScript -25%</li>
+                        <li>Python -10%</li>
+                        <li>MySQL -50%</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>Idiomas</h1>
+                    <ul>
+                        <li>Español.</li>
+                        <li>Ingles.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>Cursos y Certificados</h1>
+                    <p>Introduction to Cybersecurity, Cisco NetAcad Abr, 2021 - Jul, 2021.</p>
+                    <p>Cybersecurity Essentials, , Cisco NetAcad Mar, 2021 - Jun, 2021.</p>
+                </section>
+            </div>
+
+
+            <div class="col" id="aboutMe">
+                <section>
+                    <h1>Perfil Profesional</h1>
+                    <p>
+                        Soy un programador creativo y perfeccionista,capaz de trabajar de manera autónoma y en equipo.
+                        Me apasiona aprender y mantenerme actualizado con las últimas tendencias en programación.
+                        Mi enfoque perfeccionista se combina con una mentalidad curiosa y adaptable, lo que me permite
+                        enfrentar nuevos desafíos con entusiasmo y aportar soluciones innovadoras y eficientes.
+                    </p>
+                    <section id="workExperience">
+                        <h1>Experiencia Laboral</h1>
+                        <h3>2023-Actualidad. Programador Autónomo</h3>
+                        <ul>
+                            <li>Desarrollé conocimientos para realizar paginas web.</li>
+                            <li>Adquirí conocimientos de Frontend.</li>
+                            <li>Adquirí conocimientos semi-avanzados de backend.</li>
+                            <li>Adquirí el desarrollo de códigos con de buenas practicas y código limpio.</li>
+                        </ul>
+
+                        <h3>2022-Actualidad. Atención al publico en comercio</h3>
+                        <ul>
+                            <li>Desarrollé capacidades para comunicarme de manera efectiva con clientes de diversos
+                                perfiles.</li>
+                            <li>Desarrollé habilidades en el manejo de inventario y exhibición de productos.</li>
+                            <li>Adquirí habilidades en la gestión de quejas y resolución de conflictos.</li>
+                            <li>Adquirí habilidades en la gestión de cajas y flujo de dinero.</li>
+                            <li>Utilice programas comerciales</li>
+                        </ul>
+
+                        <h3>2019-2022.Ayudante de Técnico en Sistemas de Refrigeración</h3>
+                        <ul>
+                            <li>Desarrollé conocimientos sólidos en el campo de sistemas de refrigeración.</li>
+                            <li>Realicé montados y puesta en marcha de cámaras frigoríficas, aires condicionas,
+                                heladeras y otros.</li>
+                            <li>Realicé la programación de los sistemas de control de frio y calor.</li>
+                            <li>Realicé conexiones eléctricas de sistemas eléctricos.</li>
+                            <li>Lleve a cabo el mantenimiento de estos.</li>
+                        </ul>
+                        <h3>2019-2021. Empresa de Energía Autosustentable Solar</h3>
+                        <ul>
+                            <li>Desarrollé conocimientos en el campo de las energías renovables.</li>
+                            <li>Realicé conexiones eléctricas en estructuras edilicias.</li>
+                            <li>Realicé colocaciones de sistemas de control con pantallas solares.</li>
+                            <li>Realicé el mantenimiento de los sistemas soles.</li>
+                        </ul>
+                    </section>
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="footer">
+            <div class="col">
+                <a>
+                    <img id="logo" src="logo.png" alt="Logo de la institucion 713 Juan Abdala Chayep">
+                </a>
+            </div>
+
+            <div class="col">
+                <p>Escuela Juan Abdala Chayep N.713</p>
+            </div>
+            <div class="col">
+                <p>Practica Profesionalizante</p>
+            </div>
+            <div class="col">
+                <p>Email de contacto: Brunt300@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
